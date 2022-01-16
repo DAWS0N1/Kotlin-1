@@ -1,5 +1,5 @@
 fun main() {
-    val stringHello = "Hello"
-    val stringAplana = "Aplana"
+    val stringHello: String = "Hello"
+    val stringAplana: String = "Aplana"
     println("$stringHello, $stringAplana!")
 }

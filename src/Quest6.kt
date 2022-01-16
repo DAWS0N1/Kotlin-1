@@ -4,5 +4,6 @@ fun main() {
     val a = readLine()
     println(" больше чем ")
     val b = readLine()
-    println("${a!!.toInt() > b!!.toInt()}")
+    val isTrue: Boolean = a!!.toInt() > b!!.toInt()
+    println("$isTrue")
 }
